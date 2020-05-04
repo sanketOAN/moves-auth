@@ -26,5 +26,10 @@ public class UserController {
   public UserDto getUserByUsername(@RequestParam String username) {
     return userService.getUserByUsername(username);
   }
+  
+  @RequestMapping(value = "/getbyuserid", method = RequestMethod.GET)
+  public UserDto getUserByUserId(@RequestParam String userId) {
+    return userService.getUserProfileByUserId(userId);
+  }
 
 }

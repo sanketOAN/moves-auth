@@ -7,4 +7,6 @@ public interface IUserService {
   UserDto createUser(UserDto userDto);
 
   UserDto getUserByUsername(String username);
+
+  UserDto getUserProfileByUserId(String userId);
 }

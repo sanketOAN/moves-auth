@@ -13,6 +13,6 @@ spring:
       #authentication-database: planmytrip
       database: loans
       host: localhost # Mongo server host.
-      password: dev # Login password of the mongo server.
+      #password: dev # Login password of the mongo server.
       port: 27017 # Mongo server port.
-      username: dev # Login user of the mongo server.
+      #username: dev # Login user of the mongo server.
