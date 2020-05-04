@@ -13,5 +13,8 @@ DATA:
 }
 
 
-
+// Using Spring Repositories
 GET: localhost:8001/users/getbyusername?username=sanket
+
+// Using Spring DB Templates
+GET: localhost:8001/users/getbyuserid?userId={userId}
