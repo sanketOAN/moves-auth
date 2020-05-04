@@ -1,0 +1,18 @@
+server:
+  port: 8001
+
+auth:
+  secretKey: planmytrip
+  #Expiry duration - 30 minutes 
+  expiryDuration: 30
+  auth.issuer: pmt
+  
+spring:
+  data:
+    mongodb:
+      #authentication-database: planmytrip
+      database: loans
+      host: localhost # Mongo server host.
+      password: dev # Login password of the mongo server.
+      port: 27017 # Mongo server port.
+      username: dev # Login user of the mongo server.
